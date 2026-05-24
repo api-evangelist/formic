@@ -1,0 +1,82 @@
+aid: formic
+name: Formic
+description: >-
+  Formic is a Chicago, Illinois-based Robotics-as-a-Service (RaaS) company
+  founded in 2020 by Saman Farid that delivers full-service industrial
+  automation to American manufacturers on a pay-per-hour, fixed monthly
+  subscription model with no capital expenditure. Formic specializes in
+  end-of-line manufacturing operations — palletizing, case packing, and
+  robotic pallet wrapping — and pairs deployed robots with a 24/7 remote
+  monitoring, support, and field-service operation. The company's software
+  stack includes Formic Core, an embedded operating system that abstracts
+  motion, vision, sensing, and real-time coordination across heterogeneous
+  industrial robot hardware (Fanuc, ABB, Kuka, Doosan) behind unified
+  control interfaces; Formic Cortex; the Colony 2.0 fleet dashboard; FAST
+  configuration tools; and Formic Production Intelligence (FPI), a
+  manufacturer-facing analytics surface. Formic has raised more than $86M
+  across rounds led by Lux Capital, Blackhorn Ventures, and other investors,
+  and works through a network of 100+ system-integrator partners with 500+
+  systems deployed. Formic's revenue model is the RaaS subscription itself;
+  there is no public developer API, no published SDKs, and no public
+  customer-portal API documentation. Formic Core's "unified APIs" are
+  internal abstractions used by Formic engineers and integrator partners to
+  drive robot hardware — they are not exposed to manufacturers or third-party
+  developers.
+type: Index
+position: Provider
+access: 3rd-Party
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - Robotics
+  - Robotics As A Service
+  - RaaS
+  - Industrial Automation
+  - Manufacturing
+  - Palletizing
+  - Case Packing
+  - End Of Line
+  - Robot Fleet Management
+  - Robot Operating System
+  - Production Intelligence
+  - Hardware
+url: https://raw.githubusercontent.com/api-evangelist/formic/refs/heads/main/apis.yml
+created: '2026-05-24'
+modified: '2026-05-24'
+specificationVersion: '0.20'
+apis: []
+common:
+  - type: Website
+    url: https://formic.co
+  - type: About
+    url: https://formic.co/about
+  - type: Palletizers
+    url: https://formic.co/products/formic-palletizers
+  - type: CasePacking
+    url: https://formic.co/formic-case-packing
+  - type: Pricing
+    url: https://formic.co/products/formic-palletizers/pricing
+  - type: GettingStarted
+    url: https://formic.co/getting-started-with-robots-as-a-service-raas
+  - type: FormicCore
+    url: https://formic.co/core
+  - type: Software
+    url: https://formic.co/robotic-automation-software
+  - type: CustomerStories
+    url: https://formic.co/resources/customer-stories
+  - type: Articles
+    url: https://formic.co/resources/articles
+  - type: Press
+    url: https://formic.co/resources/press
+  - type: Contact
+    url: https://formic.co/contact/get-a-quote
+  - type: GitHub
+    url: https://github.com/Formic-Technologies
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/goformic
+  - type: Twitter
+    url: https://twitter.com/goformic
+  - type: YouTube
+    url: https://www.youtube.com/@goformic
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
