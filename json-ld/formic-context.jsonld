@@ -1,0 +1,113 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "schema": "https://schema.org/",
+    "raas": "https://formic.co/vocab/raas#",
+    "mfg": "https://www.w3.org/ns/mfg#",
+
+    "Formic": {
+      "@id": "schema:Organization",
+      "@context": {
+        "name": "schema:name",
+        "url": "schema:url",
+        "description": "schema:description",
+        "foundingDate": "schema:foundingDate",
+        "location": "schema:location",
+        "industry": "schema:industry"
+      }
+    },
+
+    "RoboticsAsAService": {
+      "@id": "raas:RoboticsAsAService",
+      "@context": {
+        "subscriptionModel": "raas:subscriptionModel",
+        "payPerHour": "raas:payPerHour",
+        "fixedMonthlyRate": "raas:fixedMonthlyRate",
+        "noCapEx": "raas:noCapEx",
+        "deployedSystem": "raas:deployedSystem"
+      }
+    },
+
+    "IndustrialRobot": {
+      "@id": "raas:IndustrialRobot",
+      "@context": {
+        "manufacturer": "schema:manufacturer",
+        "model": "schema:model",
+        "robotType": "raas:robotType",
+        "operationalStatus": "raas:operationalStatus",
+        "deploymentSite": "raas:deploymentSite"
+      }
+    },
+
+    "FormicCore": {
+      "@id": "raas:FormicCore",
+      "@context": {
+        "version": "schema:version",
+        "supportedHardware": "raas:supportedHardware",
+        "motionControl": "raas:motionControl",
+        "visionSystem": "raas:visionSystem",
+        "sensorIntegration": "raas:sensorIntegration",
+        "realtimeCoordination": "raas:realtimeCoordination"
+      }
+    },
+
+    "FormicCortex": {
+      "@id": "raas:FormicCortex",
+      "@context": {
+        "fleetDashboard": "raas:fleetDashboard",
+        "remoteMonitoring": "raas:remoteMonitoring",
+        "alertManagement": "raas:alertManagement"
+      }
+    },
+
+    "ProductionIntelligence": {
+      "@id": "raas:ProductionIntelligence",
+      "@context": {
+        "uptimeMetric": "raas:uptimeMetric",
+        "throughputMetric": "raas:throughputMetric",
+        "cycleTime": "raas:cycleTime",
+        "oeeScore": "raas:oeeScore",
+        "analyticsReport": "raas:analyticsReport"
+      }
+    },
+
+    "EndOfLineOperation": {
+      "@id": "mfg:EndOfLineOperation",
+      "@context": {
+        "operationType": "mfg:operationType",
+        "palletizing": "mfg:palletizing",
+        "casePacking": "mfg:casePacking",
+        "palletWrapping": "mfg:palletWrapping",
+        "throughputRate": "mfg:throughputRate"
+      }
+    },
+
+    "FleetManagement": {
+      "@id": "raas:FleetManagement",
+      "@context": {
+        "systemCount": "raas:systemCount",
+        "activeDeployments": "raas:activeDeployments",
+        "remoteSupport": "raas:remoteSupport",
+        "fieldService": "raas:fieldService",
+        "uptimeSLA": "raas:uptimeSLA"
+      }
+    },
+
+    "SystemIntegrator": {
+      "@id": "raas:SystemIntegrator",
+      "@context": {
+        "partnerName": "schema:name",
+        "partnerType": "schema:additionalType",
+        "certificationLevel": "raas:certificationLevel",
+        "region": "schema:addressRegion"
+      }
+    },
+
+    "name": "schema:name",
+    "description": "schema:description",
+    "url": "schema:url",
+    "identifier": "schema:identifier",
+    "dateCreated": "schema:dateCreated",
+    "dateModified": "schema:dateModified"
+  }
+}

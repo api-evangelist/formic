@@ -1,0 +1,14 @@
+{
+  "repo": "formic",
+  "feeds": [
+    {
+      "source": "https://formic.co",
+      "feed_url": "https://formic.co/resources/articles",
+      "title": "Formic Articles",
+      "saved": 0,
+      "method": "none"
+    }
+  ],
+  "post_count": 0,
+  "fetched": "2026-06-05T00:00:00Z"
+}

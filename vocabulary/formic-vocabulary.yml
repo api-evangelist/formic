@@ -1,0 +1,162 @@
+vocabulary:
+  name: Formic Industrial Automation Vocabulary
+  description: >-
+    Key concepts, terms, and domain language used by Formic in the context of
+    Robotics-as-a-Service (RaaS) and industrial manufacturing automation.
+  version: "1.0"
+  terms:
+
+    - term: Robotics-as-a-Service (RaaS)
+      definition: >-
+        A subscription-based model in which a provider (Formic) deploys, operates,
+        and maintains industrial robots at a customer's facility for a fixed monthly
+        or pay-per-hour fee, eliminating capital expenditure for the manufacturer.
+      tags:
+        - business-model
+        - subscription
+        - deployment
+
+    - term: End-of-Line Automation
+      definition: >-
+        Robotic automation applied to the final stages of a manufacturing production
+        line, including palletizing, case packing, and pallet wrapping, where
+        finished goods are prepared for distribution.
+      tags:
+        - manufacturing
+        - production
+        - operations
+
+    - term: Palletizing
+      definition: >-
+        The automated process of stacking and arranging cases, bags, or other
+        packaged goods onto a pallet in a defined pattern for storage or shipment,
+        typically performed by an articulated robot arm.
+      tags:
+        - end-of-line
+        - logistics
+        - robot-application
+
+    - term: Case Packing
+      definition: >-
+        An automated operation in which individual products or pouches are loaded
+        into shipping cases or cartons at high speed, replacing manual labor at
+        the end of a production line.
+      tags:
+        - end-of-line
+        - packaging
+        - robot-application
+
+    - term: Formic Core
+      definition: >-
+        Formic's proprietary embedded operating system that provides unified control
+        interfaces for heterogeneous industrial robot hardware (Fanuc, ABB, Kuka,
+        Doosan), abstracting motion control, vision, sensing, and real-time
+        coordination behind a common API layer used by Formic engineers and
+        integrator partners.
+      tags:
+        - software
+        - operating-system
+        - robot-control
+
+    - term: Formic Cortex
+      definition: >-
+        Formic's cloud-based fleet management and remote-monitoring platform that
+        gives Formic operations teams and system integrators visibility into robot
+        health, uptime, alerts, and performance across all deployed systems.
+      tags:
+        - software
+        - fleet-management
+        - monitoring
+
+    - term: Colony 2.0
+      definition: >-
+        The manufacturer-facing fleet dashboard within Formic's software stack,
+        providing customers with a real-time view of their deployed robotic systems,
+        operational status, and key performance indicators.
+      tags:
+        - software
+        - dashboard
+        - customer-portal
+
+    - term: Formic Production Intelligence (FPI)
+      definition: >-
+        An analytics surface in Formic's software platform that surfaces throughput,
+        uptime, cycle-time, and OEE (Overall Equipment Effectiveness) data to
+        manufacturers, enabling data-driven decisions about production efficiency.
+      tags:
+        - analytics
+        - production
+        - intelligence
+
+    - term: FAST Configuration Tools
+      definition: >-
+        Formic's proprietary tooling for rapid configuration and commissioning of
+        robotic systems at customer sites, enabling faster deployment of RaaS
+        installations with standardized setup workflows.
+      tags:
+        - tooling
+        - configuration
+        - deployment
+
+    - term: Overall Equipment Effectiveness (OEE)
+      definition: >-
+        A standard manufacturing KPI combining availability, performance, and quality
+        rates to measure how effectively a piece of equipment (or robotic system)
+        is being used relative to its full potential.
+      tags:
+        - metrics
+        - manufacturing
+        - kpi
+
+    - term: System Integrator (SI) Partner
+      definition: >-
+        Third-party engineering firms in Formic's partner network that assist in
+        scoping, installing, and commissioning robotic automation systems at
+        manufacturer facilities, often acting as the on-site technical resource
+        alongside Formic's remote support team.
+      tags:
+        - partnerships
+        - integration
+        - channel
+
+    - term: Remote Monitoring
+      definition: >-
+        Formic's 24/7 operational capability to observe robot health, detect faults,
+        and intervene remotely on deployed systems without requiring on-site personnel,
+        reducing downtime and support costs for manufacturers.
+      tags:
+        - operations
+        - support
+        - uptime
+
+    - term: Uptime SLA
+      definition: >-
+        A contractual guarantee embedded in Formic's RaaS subscription that specifies
+        the minimum percentage of time a deployed robotic system must be operational;
+        if the robot is down, the customer does not pay for that time.
+      tags:
+        - sla
+        - contract
+        - reliability
+
+    - term: Heterogeneous Robot Fleet
+      definition: >-
+        A deployment environment containing robots from multiple hardware manufacturers
+        (e.g., Fanuc, ABB, Kuka, Doosan) managed through a unified software layer,
+        allowing customers to benefit from the best hardware for each task without
+        being locked into a single vendor.
+      tags:
+        - fleet-management
+        - hardware
+        - interoperability
+
+    - term: Pay-Per-Hour Model
+      definition: >-
+        One of Formic's pricing structures in which manufacturers are billed only for
+        the hours the robotic system is actively producing, aligning Formic's revenue
+        directly with the customer's operational output and minimizing financial risk
+        for the manufacturer.
+      tags:
+        - pricing
+        - business-model
+        - billing
