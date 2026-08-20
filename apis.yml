@@ -39,6 +39,19 @@ access: 3rd-Party
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/formic.png
 tags:
   - Robotics
+  - Robotics as a Service
+  - RaaS
+  - Industrial Automation
+  - Manufacturing
+  - Palletizing
+  - Case Packing
+  - End Of Line
+  - Robot Fleet Management
+  - Robot Operating System
+  - Production Intelligence
+  - Hardware
+tags_raw:
+  - Robotics
   - Robotics As A Service
   - RaaS
   - Industrial Automation
