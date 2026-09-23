@@ -1,0 +1,27 @@
+# Front Door AI Index — formic — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: formic
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: formic.co
+  final_host: formic.co
+  ownership: own
+  owner: formic
+  shares_host_with: null
+  inherited_from: null
+  verdict: scored
+  score: 7
+  host_score: 7
+  density: 5.95
+  words: 1176
+  tiers:
+    agentic: 0
+    core: 7
+    model: 0
+  ambiguous: 10
+  top_terms:
+    automation: 9
+    AI: 7
+    intelligence: 1
