@@ -1,4 +1,4 @@
-# formic
+# Formic
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,4 +64,93 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Formic — Chicago-based Robotics-as-a-Service (RaaS) for end-of-line manufacturing automation (palletizing, case packing). No public developer API.
+Formic is a Chicago, Illinois-based Robotics-as-a-Service (RaaS) company founded in 2020 by Saman Farid that delivers full-service industrial automation to American manufacturers on a pay-per-hour, fixed monthly subscription model with no capital expenditure. Formic specializes in end-of-line manufacturing operations — palletizing, case packing, and robotic pallet wrapping — and pairs deployed robots with a 24/7 remote monitoring, support, and field-service operation. The company's software stack includes Formic Core, an embedded operating system that abstracts motion, vision, sensing, and real-time coordination across heterogeneous industrial robot hardware (Fanuc, ABB, Kuka, Doosan) behind unified control interfaces; Formic Cortex; the Colony 2.0 fleet dashboard; FAST configuration tools; and Formic Production Intelligence (FPI), a manufacturer-facing analytics surface. Formic has raised more than $86M across rounds led by Lux Capital, Blackhorn Ventures, and other investors, and works through a network of 100+ system-integrator partners with 500+ systems deployed. Formic's revenue model is the RaaS subscription itself; there is no public developer API, no published SDKs, and no public customer-portal API documentation. Formic Core's "unified APIs" are internal abstractions used by Formic engineers and integrator partners to drive robot hardware — they are not exposed to manufacturers or third-party developers.
+
+**Areas:** Robotics · Robotics as a Service · RaaS · Industrial Automation · Manufacturing · Palletizing · Case Packing · End Of Line · Robot Fleet Management · Robot Operating System · Production Intelligence · Hardware
+
+## Formic on APIs.io
+
+Everything profiled for Formic is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/formic/](https://apis.io/providers/formic/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Formic Context](https://apis.io/jsonld/formic/formic-context/)
+
+#### Vocabulary (1)
+
+The provider's domain terms, defined.
+
+- [Formic Industrial Automation Vocabulary](https://apis.io/vocabularies/formic/formic-vocabulary/)
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Formic Domain Security](https://apis.io/security/formic/formic-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://formic.co)
+- [Getting started](https://formic.co/getting-started-with-robots-as-a-service-raas)
+- [Pricing](https://formic.co/products/formic-palletizers/pricing)
+
+## API Evangelist rating
+
+**Kin Score 12.1** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 49.1 |
+| Contract quality | 10.7 |
+| Contract governance | 0.0 |
+| Operational transparency | 5.3 |
+| Developer ergonomics | 11.9 |
+| Access clarity | 10.5 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 10.8** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/formic/](https://apis.io/providers/formic/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Formic: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/formic/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
